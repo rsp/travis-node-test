@@ -1,4 +1,6 @@
 language: node_js
 node_js:
   - "node"
+  - "0.3.8"
+  - "0.3.9"
 script: bash info.sh
