@@ -1,7 +1,8 @@
 #!/bin/bash
+start=`date -I`
 echo "=============================="
 echo "=== TRAVIS NODE TEST START ==="
-echo "DATE: `date -Is`"
+echo "DATE: $date"
 echo "branch: $TRAVIS_BRANCH"
 echo "commit: $TRAVIS_COMMIT"
 echo "=== SYSTEM ==="
@@ -29,6 +30,11 @@ v=`make -v 2>&1 | grep -i 'GNU Make'`
 echo -n 'gcc -v: '
 v=`gcc -v 2>&1 | grep 'gcc version' | sed 's/gcc version //'`
 [ -n "$v" ] && echo $v || echo '(none)'
+echo "=== INSTALLED NODE VERSIONS ==="
+nvm ls
+echo "=== AVAILABLE NODE VERSIONS ==="
+nvm ls-remote
 echo "=== TRAVIS NODE TEST END ==="
-echo "DATE: `date -Is`"
+echo "START: $date"
+echo "END:   `date -Is`"
 echo "============================"
