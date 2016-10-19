@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "******************************"
-echo "*** TRAVIS NODE TEST START ***"
+echo "=============================="
+echo "=== TRAVIS NODE TEST START ==="
 echo "DATE: `date -Is`"
 echo "branch: $TRAVIS_BRANCH"
 echo "commit: $TRAVIS_COMMIT"
@@ -29,6 +29,6 @@ v=`make -v 2>&1 | grep -i 'GNU Make'`
 echo -n 'gcc -v: '
 v=`gcc -v 2>&1 | grep 'gcc version' | sed 's/gcc version //'`
 [ -n "$v" ] && echo $v || echo '(none)'
-echo "*** TRAVIS NODE TEST END ***"
+echo "=== TRAVIS NODE TEST END ==="
 echo "DATE: `date -Is`"
-echo "****************************"
+echo "============================"
