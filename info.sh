@@ -2,7 +2,7 @@
 start=`date -I`
 echo "=============================="
 echo "=== TRAVIS NODE TEST START ==="
-echo "DATE: $date"
+echo "DATE: $start"
 echo "branch: $TRAVIS_BRANCH"
 echo "commit: $TRAVIS_COMMIT"
 echo "=== SYSTEM ==="
@@ -35,6 +35,6 @@ nvm ls
 echo "=== AVAILABLE NODE VERSIONS ==="
 nvm ls-remote
 echo "=== TRAVIS NODE TEST END ==="
-echo "START: $date"
+echo "START: $start"
 echo "END:   `date -Is`"
 echo "============================"
