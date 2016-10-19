@@ -1,4 +1,8 @@
 #!/bin/bash
+if [ "$TRAVIS" == true ]; then
+  wget https://raw.githubusercontent.com/creationix/nvm/master/nvm.sh
+  . nvm.sh
+fi
 start=`date -I`
 echo "=============================="
 echo "=== TRAVIS NODE TEST START ==="
