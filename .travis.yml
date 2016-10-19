@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-  - "node"
-  - "0.3.8"
-  - "0.3.9"
+  - node
+  - iojs
+  - lts
+  - 6
 script: bash info.sh
