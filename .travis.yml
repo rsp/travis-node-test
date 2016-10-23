@@ -2,6 +2,5 @@ language: node_js
 node_js:
   - node
   - iojs
-  - lts
   - 6
 script: bash info.sh
