@@ -5,6 +5,7 @@ Travis Node Test
 [readme-url]: https://github.com/rsp/travis-node-test#readme
 [issues-url]: https://github.com/rsp/travis-node-test/issues
 [license-url]: https://github.com/rsp/travis-node-test/blob/master/LICENSE.md
+[license-img]: https://img.shields.io/github/license/rsp/travis-node-test.svg
 [travis-url]: https://travis-ci.org/rsp/travis-node-test
 [travis-img]: https://travis-ci.org/rsp/travis-node-test.svg?branch=master
 [snyk-url]: https://snyk.io/test/github/rsp/travis-node-test
@@ -21,6 +22,8 @@ Travis Node Test
 
 Testing Node installations on Travis CI.
 
+[![License][license-img]][licence-url]
+<br/>
 [<img alt"travis build" src="https://travis-ci.org/rsp/travis-node-test.svg?branch=master" height="40"/><br/>travis-ci.org/rsp/travis-node-test][travis-url]
 
 Configuration
@@ -44,4 +47,6 @@ Author
 
 License
 -------
+[![License][license-img]][licence-url]
+<br/>
 MIT License (Expat). See [LICENSE.md](LICENSE.md) for details.
