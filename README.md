@@ -22,7 +22,7 @@ Travis Node Test
 
 Testing Node installations on Travis CI.
 
-[![License][license-img]][licence-url]
+[![License][license-img]][license-url]
 <br/>
 [<img alt"travis build" src="https://travis-ci.org/rsp/travis-node-test.svg?branch=master" height="40"/><br/>travis-ci.org/rsp/travis-node-test][travis-url]
 
@@ -47,6 +47,6 @@ Author
 
 License
 -------
-[![License][license-img]][licence-url]
+[![License][license-img]][license-url]
 <br/>
 MIT License (Expat). See [LICENSE.md](LICENSE.md) for details.
