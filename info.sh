@@ -1,8 +1,4 @@
 #!/bin/bash
-#if [ "$TRAVIS" == true ]; then
-#  wget https://raw.githubusercontent.com/creationix/nvm/master/nvm.sh
-#  . nvm.sh
-#fi
 start=`date -I`
 echo "=============================="
 echo "=== TRAVIS NODE TEST START ==="
@@ -40,6 +36,11 @@ v=`make -v 2>&1 | grep -i 'GNU Make'`
 echo -n 'gcc -v: '
 v=`gcc -v 2>&1 | grep 'gcc version' | sed 's/gcc version //'`
 [ -n "$v" ] && echo $v || echo '(none)'
+if [ "$TRAVIS" == true ]; then
+  wget https://raw.githubusercontent.com/creationix/nvm/master/nvm.sh
+  . nvm.sh
+  rm nvm.sh
+fi
 echo "=== INSTALLED NODE VERSIONS ==="
 nvm ls
 echo "=== AVAILABLE NODE VERSIONS ==="
