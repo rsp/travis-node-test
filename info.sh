@@ -24,8 +24,8 @@ for c in node npm nvm ld make cc gcc g++ bash; do
 done
 echo "=== VERSIONS ==="
 for c in node npm nvm ld; do
-  echo -n "$c -v: "
-  v=`$c -v 2>/dev/null | head -1`
+  echo -n "$c --version: "
+  v=`$c --version 2>/dev/null | head -1`
   [ -n "$v" ] && echo $v || echo '(none)'
 done
 echo -n 'make -v: '
