@@ -5,7 +5,7 @@ node_js:
   - 6
   - 7
 script:
-  - echo "### RUNNING info.sh FROM BASH: ###"
-  - bash info.sh
-  - echo "### RUNNING info.sh FROM NPM: ###"
-  - npm test
+  - "echo '### RUNNING info.sh FROM BASH: ###'"
+  - "bash info.sh"
+  - "echo '### RUNNING info.sh FROM NPM: ###'"
+  - "npm test"
