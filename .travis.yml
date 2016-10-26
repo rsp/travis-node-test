@@ -4,6 +4,12 @@ node_js:
   - iojs
   - 6
   - 7
+  - "lts/*"
+  - lts
+  - stable
+  - unstable
+  - lts/argon
+  - lts/boron
 script:
   - "echo '### RUNNING info.sh FROM BASH: ###'"
   - "bash info.sh"
