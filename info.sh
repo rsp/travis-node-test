@@ -23,6 +23,9 @@ for c in node npm nvm ld make cc gcc g++ bash; do
   which $c || echo '(none)'
 done
 echo "=== VERSIONS ==="
+echo -n "node -e 'console.log(process.versions.node);': "
+v=`node -e 'console.log(process.versions.node);' 2>/dev/null`
+[ -n "$v" ] && echo $v || echo '(none)'
 for c in node npm nvm ld; do
   echo -n "$c --version: "
   v=`$c --version 2>/dev/null | head -1`
