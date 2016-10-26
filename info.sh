@@ -22,7 +22,7 @@ echo "=== VERSIONS ==="
 for c in "console.log(process.version);" \
          "console.log(process.versions.node);"; do
   echo -n "node -e '$c': "
-  v=`node -e '$c' 2>/dev/null`
+  v=`node -e "$c" 2>/dev/null`
   [ -n "$v" ] && echo $v || echo '(none)'
 done
 for c in node npm nvm ld; do
