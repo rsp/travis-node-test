@@ -12,8 +12,7 @@ node_js:
   - lts/boron
 matrix:
   allow_failures:
-    node_je:
-      - lts
+    node_js: lts
 script:
   - "echo '### RUNNING info.sh FROM BASH: ###'"
   - "bash info.sh"
