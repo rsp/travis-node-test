@@ -1,0 +1,19 @@
+{
+  "name": "travis-node-test",
+  "version": "0.0.0",
+  "description": "Travis Node Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "bash info.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsp/travis-node-test.git"
+  },
+  "author": "Rafał Pocztarski <r.pocztarski@gmail.com> (https://pocztarski.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsp/travis-node-test/issues"
+  },
+  "homepage": "https://github.com/rsp/travis-node-test#readme"
+}
