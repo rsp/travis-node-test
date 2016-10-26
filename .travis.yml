@@ -10,6 +10,10 @@ node_js:
   - unstable
   - lts/argon
   - lts/boron
+matrix:
+  allow_failures:
+    node_je:
+      - lts
 script:
   - "echo '### RUNNING info.sh FROM BASH: ###'"
   - "bash info.sh"
