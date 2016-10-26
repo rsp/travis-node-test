@@ -21,7 +21,7 @@ Travis Node Test
 
 Testing Node installations on Travis CI.
 
-[<img alt"travis build" src="https://travis-ci.org/rsp/travis-node-test.svg?branch=master" height="40"> travis-ci.org/rsp/travis-node-test][travis-url]
+[<img alt"travis build" src="https://travis-ci.org/rsp/travis-node-test.svg?branch=master" height="40"/><br/>travis-ci.org/rsp/travis-node-test][travis-url]
 
 Configuration
 -------------
