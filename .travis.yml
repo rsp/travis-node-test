@@ -4,4 +4,8 @@ node_js:
   - iojs
   - 6
   - 7
-script: bash info.sh
+script:
+  - echo "### RUNNING info.sh FROM BASH: ###"
+  - bash info.sh
+  - echo "### RUNNING info.sh FROM NPM: ###"
+  - npm test
