@@ -1,4 +1,4 @@
-Travis Node Test
+Travis Node Test [![License][license-img]][license-url]
 ================
 
 [github-url]: https://github.com/rsp/travis-node-test
@@ -22,9 +22,9 @@ Travis Node Test
 
 Testing Node installations on Travis CI.
 
-[![License][license-img]][license-url]
-<br/>
 [<img alt"travis build" src="https://travis-ci.org/rsp/travis-node-test.svg?branch=master" height="40"/><br/>travis-ci.org/rsp/travis-node-test][travis-url]
+<br/>
+(build error here is fine - I'm testing which Node versions can be used with Travis and some can't, resulting in build errors)
 
 Configuration
 -------------
