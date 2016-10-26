@@ -21,6 +21,8 @@ Travis Node Test
 
 Testing Node installations on Travis CI.
 
+[<img alt"travis build" src="https://travis-ci.org/rsp/travis-node-test.svg?branch=master" height="40"> travis-ci.org/rsp/travis-node-test][travis-url]
+
 Configuration
 -------------
 You can fork it and change the commands in `.travis.yml` to suit your needs.
