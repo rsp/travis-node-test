@@ -3,4 +3,5 @@ node_js:
   - node
   - iojs
   - 6
+  - 7
 script: bash info.sh
